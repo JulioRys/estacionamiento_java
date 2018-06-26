@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jButton2" min="-2" pref="80" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" pref="768" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dateChooserCombo2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dateChooserCombo1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton1" alignment="0" min="-2" pref="155" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextFieldIngresos" pref="100" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldIva" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldIngresoTotal" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jTextFieldEfectivo" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldTarjeta" pref="100" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="45" max="32767" attributes="0"/>
+                                      <Component id="jTextFieldServicios" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jButtonExportar" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldTotalTarjeta" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldTotalEfectivo" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="dateChooserCombo1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldEfectivo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldIngresos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldTotalEfectivo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="dateChooserCombo2" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldTarjeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldIva" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldTotalTarjeta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldIngresoTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="jTextFieldServicios" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonExportar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F. Inicio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F. Fin"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cargar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="datechooser.beans.DateChooserCombo" name="dateChooserCombo1">
+      <Properties>
+        <Property name="dch_defaultDates" type="datechooser.model.multiple.PeriodSet" editor="datechooser.beans.editor.dates.PeriodsEditor">
+          <SerializedValue value="-84,-19,0,5,115,114,0,36,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,83,101,116,-104,-44,-96,42,-91,51,-90,42,2,0,3,76,0,4,100,97,116,97,116,0,22,76,106,97,118,97,47,117,116,105,108,47,76,105,110,107,101,100,76,105,115,116,59,76,0,9,108,97,115,116,65,100,100,101,100,116,0,35,76,100,97,116,101,99,104,111,111,115,101,114,47,109,111,100,101,108,47,109,117,108,116,105,112,108,101,47,80,101,114,105,111,100,59,76,0,10,112,101,114,105,111,100,67,97,115,104,113,0,126,0,2,120,112,115,114,0,20,106,97,118,97,46,117,116,105,108,46,76,105,110,107,101,100,76,105,115,116,12,41,83,93,74,96,-120,34,3,0,0,120,112,119,4,0,0,0,1,115,114,0,33,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,29,77,-123,76,95,4,43,-93,2,0,2,76,0,7,101,110,100,68,97,116,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,67,97,108,101,110,100,97,114,59,76,0,9,115,116,97,114,116,68,97,116,101,113,0,126,0,7,120,112,115,114,0,27,106,97,118,97,46,117,116,105,108,46,71,114,101,103,111,114,105,97,110,67,97,108,101,110,100,97,114,-113,61,-41,-42,-27,-80,-48,-63,2,0,1,74,0,16,103,114,101,103,111,114,105,97,110,67,117,116,111,118,101,114,120,114,0,18,106,97,118,97,46,117,116,105,108,46,67,97,108,101,110,100,97,114,-26,-22,77,30,-56,-36,91,-114,3,0,11,90,0,12,97,114,101,70,105,101,108,100,115,83,101,116,73,0,14,102,105,114,115,116,68,97,121,79,102,87,101,101,107,90,0,9,105,115,84,105,109,101,83,101,116,90,0,7,108,101,110,105,101,110,116,73,0,22,109,105,110,105,109,97,108,68,97,121,115,73,110,70,105,114,115,116,87,101,101,107,73,0,9,110,101,120,116,83,116,97,109,112,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,74,0,4,116,105,109,101,91,0,6,102,105,101,108,100,115,116,0,2,91,73,91,0,5,105,115,83,101,116,116,0,2,91,90,76,0,4,122,111,110,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,84,105,109,101,90,111,110,101,59,120,112,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,96,-36,51,-127,70,117,114,0,2,91,73,77,-70,96,38,118,-22,-78,-91,2,0,0,120,112,0,0,0,17,0,0,0,1,0,0,7,-30,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,9,0,0,0,9,0,0,0,3,0,0,0,2,0,0,0,0,0,0,0,11,0,0,0,11,0,0,0,34,0,0,0,11,0,0,0,-114,-2,127,122,-128,0,0,0,0,117,114,0,2,91,90,87,-113,32,57,20,-72,93,-30,2,0,0,120,112,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,114,0,24,106,97,118,97,46,117,116,105,108,46,83,105,109,112,108,101,84,105,109,101,90,111,110,101,-6,103,93,96,-47,94,-11,-90,3,0,18,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,6,101,110,100,68,97,121,73,0,12,101,110,100,68,97,121,79,102,87,101,101,107,73,0,7,101,110,100,77,111,100,101,73,0,8,101,110,100,77,111,110,116,104,73,0,7,101,110,100,84,105,109,101,73,0,11,101,110,100,84,105,109,101,77,111,100,101,73,0,9,114,97,119,79,102,102,115,101,116,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,73,0,8,115,116,97,114,116,68,97,121,73,0,14,115,116,97,114,116,68,97,121,79,102,87,101,101,107,73,0,9,115,116,97,114,116,77,111,100,101,73,0,10,115,116,97,114,116,77,111,110,116,104,73,0,9,115,116,97,114,116,84,105,109,101,73,0,13,115,116,97,114,116,84,105,109,101,77,111,100,101,73,0,9,115,116,97,114,116,89,101,97,114,90,0,11,117,115,101,68,97,121,108,105,103,104,116,91,0,11,109,111,110,116,104,76,101,110,103,116,104,116,0,2,91,66,120,114,0,18,106,97,118,97,46,117,116,105,108,46,84,105,109,101,90,111,110,101,49,-77,-23,-11,119,68,-84,-95,2,0,1,76,0,2,73,68,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,116,0,14,65,109,101,114,105,99,97,47,68,101,110,118,101,114,0,54,-18,-128,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,10,0,109,-35,0,0,0,0,0,-2,127,122,-128,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,3,0,0,0,2,0,109,-35,0,0,0,0,0,0,0,0,0,1,117,114,0,2,91,66,-84,-13,23,-8,6,8,84,-32,2,0,0,120,112,0,0,0,12,31,28,31,30,31,30,31,31,30,31,30,31,119,10,0,0,0,6,8,1,1,1,0,0,117,113,0,126,0,15,0,0,0,2,0,109,-35,0,0,109,-35,0,120,115,114,0,26,115,117,110,46,117,116,105,108,46,99,97,108,101,110,100,97,114,46,90,111,110,101,73,110,102,111,36,-47,-45,-50,0,29,113,-101,2,0,8,73,0,8,99,104,101,99,107,115,117,109,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,9,114,97,119,79,102,102,115,101,116,73,0,13,114,97,119,79,102,102,115,101,116,68,105,102,102,90,0,19,119,105,108,108,71,77,84,79,102,102,115,101,116,67,104,97,110,103,101,91,0,7,111,102,102,115,101,116,115,113,0,126,0,11,91,0,20,115,105,109,112,108,101,84,105,109,101,90,111,110,101,80,97,114,97,109,115,113,0,126,0,11,91,0,11,116,114,97,110,115,105,116,105,111,110,115,116,0,2,91,74,120,113,0,126,0,21,113,0,126,0,24,26,-30,15,-84,0,54,-18,-128,-2,127,122,-128,0,0,0,0,0,117,113,0,126,0,15,0,0,0,3,-2,127,122,-128,-2,-74,105,0,0,54,-18,-128,117,113,0,126,0,15,0,0,0,10,0,0,0,2,0,0,0,8,-1,-1,-1,-1,0,109,-35,0,0,0,0,0,0,0,0,10,0,0,0,1,-1,-1,-1,-1,0,109,-35,0,0,0,0,0,117,114,0,2,91,74,120,32,4,-75,18,-79,117,-109,2,0,0,120,112,0,0,0,-99,-1,-33,-38,-32,29,-64,0,0,-1,-24,59,-107,76,40,0,33,-1,-24,127,41,84,-64,0,0,-1,-24,-80,-67,-7,40,0,33,-1,-24,-12,82,1,-64,0,0,-1,-23,37,-26,-90,40,0,33,-1,-23,107,-69,119,0,0,0,-1,-23,-101,15,83,40,0,33,-1,-23,-83,18,38,64,0,0,-1,-13,48,-11,-111,40,0,33,-1,-12,-36,-76,92,0,0,0,-1,-3,-39,22,114,40,0,33,-1,-2,21,-24,34,0,0,0,-1,-2,78,63,31,40,0,33,-1,-2,-117,16,-49,0,0,0,-1,-2,-59,-88,-108,104,0,33,-1,-1,0,57,124,0,0,0,-1,-1,58,-47,65,104,0,33,-1,-1,117,98,41,0,0,0,-1,-1,-81,-7,-18,104,0,33,-1,-1,-22,-118,-42,0,0,0,0,0,37,34,-101,104,0,33,0,0,95,-77,-125,0,0,0,0,0,-102,75,72,104,0,33,0,0,-41,28,-8,64,0,0,0,1,17,-76,-67,-88,0,33,0,1,76,69,-91,64,0,0,0,1,-122,-35,106,-88,0,33,0,1,-63,110,82,64,0,0,0,1,-41,-7,-109,-88,0,33,0,2,54,-106,-1,64,0,0,0,2,92,-25,-70,104,0,33,0,2,-85,-65,-84,64,0,0,0,2,-26,87,113,-88,0,33,0,3,35,41,33,-128,0,0,0,3,91,-128,30,-88,0,33,0,3,-104,81,-50,-128,0,0,0,3,-46,-23,-109,-24,0,33,0,4,13,122,123,-128,0,0,0,4,72,18,64,-24,0,33,0,4,-126,-93,40,-128,0,0,0,4,-67,58,-19,-24,0,33,0,4,-9,-53,-43,-128,0,0,0,5,50,99,-102,-24,0,33,0,5,108,-12,-126,-128,0,0,0,5,-89,-116,71,-24,0,33,0,5,-28,93,-9,-64,0,0,0,6,28,-76,-12,-24,0,33,0,6,89,-122,-92,-64,0,0,0,6,-108,30,106,40,0,33,0,6,-50,-81,81,-64,0,0,0,7,9,71,23,40,0,33,0,7,67,-41,-2,-64,0,0,0,7,126,111,-60,40,0,33,0,7,-71,0,-85,-64,0,0,0,7,-20,-42,24,104,0,33,0,8,46,41,88,-64,0,0,0,8,97,-2,-59,104,0,33,0,8,-91,-110,-50,0,0,0,0,8,-41,39,114,104,0,33,0,9,26,-69,123,0,0,0,0,9,76,80,31,104,0,33,0,9,-113,-28,40,0,0,0,0,9,-61,-71,-108,-88,0,33,0,10,5,12,-43,0,0,0,0,10,56,-30,65,-88,0,33,0,10,122,53,-126,0,0,0,0,10,-82,10,-18,-88,0,33,0,10,-15,-98,-9,64,0,0,0,11,35,51,-101,-88,0,33,0,11,102,-57,-92,64,0,0,0,11,-104,92,72,-88,0,33,0,11,-37,-16,81,64,0,0,0,12,15,-59,-67,-24,0,33,0,12,81,24,-2,64,0,0,0,12,-124,-18,106,-24,0,33,0,12,-58,65,-85,64,0,0,0,12,-6,23,23,-24,0,33,0,13,59,106,88,64,0,0,0,13,111,63,-60,-24,0,33,0,13,-78,-45,-51,-128,0,0,0,13,-28,104,113,-24,0,33,0,14,39,-4,122,-128,0,0,0,14,89,-111,30,-24,0,33,0,14,-99,37,39,-128,0,0,0,14,-48,-6,-108,40,0,33,0,15,18,77,-44,-128,0,0,0,15,70,35,65,40,0,33,0,15,-121,118,-127,-128,0,0,0,15,-69,75,-18,40,0,33,0,15,-2,-33,-10,-64,0,0,0,16,48,116,-101,40,0,33,0,16,116,8,-93,-64,0,0,0,16,-91,-99,72,40,0,33,0,16,-23,49,80,-64,0,0,0,17,20,3,-100,104,0,33,0,17,96,-102,-58,0,0,0,0,17,-119,44,73,104,0,33,0,17,-43,-61,115,0,0,0,0,17,-2,84,-10,104,0,33,0,18,74,-20,32,0,0,0,0,18,117,-66,107,-88,0,33,0,18,-62,85,-107,64,0,0,0,18,-22,-25,24,-88,0,33,0,19,55,126,66,64,0,0,0,19,96,15,-59,-88,0,33,0,19,-84,-90,-17,64,0,0,0,19,-43,56,114,-88,0,33,0,20,33,-49,-100,64,0,0,0,20,74,97,31,-88,0,33,0,20,-106,-8,73,64,0,0,0,20,-65,-119,-52,-88,0,33,0,21,12,32,-10,64,0,0,0,21,54,-13,65,-24,0,33,0,21,-125,-118,107,-128,0,0,0,21,-84,27,-18,-24,0,33,0,21,-8,-77,24,-128,0,0,0,22,33,68,-101,-24,0,33,0,22,109,-37,-59,-128,0,0,0,22,-106,109,72,-24,0,33,0,22,-29,4,114,-128,0,0,0,23,11,-107,-11,-24,0,33,0,23,88,45,31,-128,0,0,0,23,-126,-1,107,40,0,33,0,23,-49,-106,-108,-64,0,0,0,23,-8,40,24,40,0,33,0,24,68,-65,65,-64,0,0,0,24,109,80,-59,40,0,33,0,24,-71,-25,-18,-64,0,0,0,24,-30,121,114,40,0,33,0,25,47,16,-101,-64,0,0,0,25,87,-94,31,40,0,33,0,25,-92,57,72,-64,0,0,0,25,-52,-54,-52,40,0,33,0,26,25,97,-11,-64,0,0,0,26,68,52,65,104,0,33,0,26,-112,-53,107,0,0,0,0,26,-71,92,-18,104,0,33,0,27,5,-12,24,0,0,0,0,27,46,-123,-101,104,0,33,0,27,123,28,-59,0,0,0,0,27,-93,-82,72,104,0,33,0,27,-16,69,114,0,0,0,0,28,24,-42,-11,104,0,33,0,28,101,110,31,0,0,0,0,28,-112,64,106,-88,0,33,0,28,-36,-41,-108,64,0,0,0,29,5,105,23,-88,0,33,0,29,82,0,65,64,0,0,0,29,122,-111,-60,-88,0,33,0,29,-57,40,-18,64,0,0,0,29,-17,-70,113,-88,0,33,0,30,60,81,-101,64,0,0,0,30,100,-29,30,-88,0,33,0,30,-79,122,72,64,0,0,0,30,-38,11,-53,-88,0,33,0,31,38,-94,-11,64,0,0,120,-1,-1,-12,-30,-7,100,-84,0,115,113,0,126,0,9,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,96,-36,51,-127,70,117,113,0,126,0,15,0,0,0,17,0,0,0,1,0,0,7,-30,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,9,0,0,0,9,0,0,0,3,0,0,0,2,0,0,0,0,0,0,0,11,0,0,0,11,0,0,0,34,0,0,0,11,0,0,0,-114,-2,127,122,-128,0,0,0,0,117,113,0,126,0,17,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,113,0,126,0,19,113,0,126,0,24,0,54,-18,-128,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,10,0,109,-35,0,0,0,0,0,-2,127,122,-128,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,3,0,0,0,2,0,109,-35,0,0,0,0,0,0,0,0,0,1,113,0,126,0,26,119,10,0,0,0,6,8,1,1,1,0,0,117,113,0,126,0,15,0,0,0,2,0,109,-35,0,0,109,-35,0,120,115,113,0,126,0,28,113,0,126,0,24,26,-30,15,-84,0,54,-18,-128,-2,127,122,-128,0,0,0,0,0,113,0,126,0,31,113,0,126,0,32,113,0,126,0,34,120,-1,-1,-12,-30,-7,100,-84,0,120,112,112"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="datechooser.beans.DateChooserCombo" name="dateChooserCombo2">
+      <Properties>
+        <Property name="dch_defaultDates" type="datechooser.model.multiple.PeriodSet" editor="datechooser.beans.editor.dates.PeriodsEditor">
+          <SerializedValue value="-84,-19,0,5,115,114,0,36,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,83,101,116,-104,-44,-96,42,-91,51,-90,42,2,0,3,76,0,4,100,97,116,97,116,0,22,76,106,97,118,97,47,117,116,105,108,47,76,105,110,107,101,100,76,105,115,116,59,76,0,9,108,97,115,116,65,100,100,101,100,116,0,35,76,100,97,116,101,99,104,111,111,115,101,114,47,109,111,100,101,108,47,109,117,108,116,105,112,108,101,47,80,101,114,105,111,100,59,76,0,10,112,101,114,105,111,100,67,97,115,104,113,0,126,0,2,120,112,115,114,0,20,106,97,118,97,46,117,116,105,108,46,76,105,110,107,101,100,76,105,115,116,12,41,83,93,74,96,-120,34,3,0,0,120,112,119,4,0,0,0,1,115,114,0,33,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,29,77,-123,76,95,4,43,-93,2,0,2,76,0,7,101,110,100,68,97,116,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,67,97,108,101,110,100,97,114,59,76,0,9,115,116,97,114,116,68,97,116,101,113,0,126,0,7,120,112,115,114,0,27,106,97,118,97,46,117,116,105,108,46,71,114,101,103,111,114,105,97,110,67,97,108,101,110,100,97,114,-113,61,-41,-42,-27,-80,-48,-63,2,0,1,74,0,16,103,114,101,103,111,114,105,97,110,67,117,116,111,118,101,114,120,114,0,18,106,97,118,97,46,117,116,105,108,46,67,97,108,101,110,100,97,114,-26,-22,77,30,-56,-36,91,-114,3,0,11,90,0,12,97,114,101,70,105,101,108,100,115,83,101,116,73,0,14,102,105,114,115,116,68,97,121,79,102,87,101,101,107,90,0,9,105,115,84,105,109,101,83,101,116,90,0,7,108,101,110,105,101,110,116,73,0,22,109,105,110,105,109,97,108,68,97,121,115,73,110,70,105,114,115,116,87,101,101,107,73,0,9,110,101,120,116,83,116,97,109,112,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,74,0,4,116,105,109,101,91,0,6,102,105,101,108,100,115,116,0,2,91,73,91,0,5,105,115,83,101,116,116,0,2,91,90,76,0,4,122,111,110,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,84,105,109,101,90,111,110,101,59,120,112,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,96,-36,51,-6,-119,117,114,0,2,91,73,77,-70,96,38,118,-22,-78,-91,2,0,0,120,112,0,0,0,17,0,0,0,1,0,0,7,-30,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,9,0,0,0,9,0,0,0,3,0,0,0,2,0,0,0,0,0,0,0,11,0,0,0,11,0,0,0,34,0,0,0,42,0,0,0,-71,-2,127,122,-128,0,0,0,0,117,114,0,2,91,90,87,-113,32,57,20,-72,93,-30,2,0,0,120,112,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,114,0,24,106,97,118,97,46,117,116,105,108,46,83,105,109,112,108,101,84,105,109,101,90,111,110,101,-6,103,93,96,-47,94,-11,-90,3,0,18,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,6,101,110,100,68,97,121,73,0,12,101,110,100,68,97,121,79,102,87,101,101,107,73,0,7,101,110,100,77,111,100,101,73,0,8,101,110,100,77,111,110,116,104,73,0,7,101,110,100,84,105,109,101,73,0,11,101,110,100,84,105,109,101,77,111,100,101,73,0,9,114,97,119,79,102,102,115,101,116,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,73,0,8,115,116,97,114,116,68,97,121,73,0,14,115,116,97,114,116,68,97,121,79,102,87,101,101,107,73,0,9,115,116,97,114,116,77,111,100,101,73,0,10,115,116,97,114,116,77,111,110,116,104,73,0,9,115,116,97,114,116,84,105,109,101,73,0,13,115,116,97,114,116,84,105,109,101,77,111,100,101,73,0,9,115,116,97,114,116,89,101,97,114,90,0,11,117,115,101,68,97,121,108,105,103,104,116,91,0,11,109,111,110,116,104,76,101,110,103,116,104,116,0,2,91,66,120,114,0,18,106,97,118,97,46,117,116,105,108,46,84,105,109,101,90,111,110,101,49,-77,-23,-11,119,68,-84,-95,2,0,1,76,0,2,73,68,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,116,0,14,65,109,101,114,105,99,97,47,68,101,110,118,101,114,0,54,-18,-128,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,10,0,109,-35,0,0,0,0,0,-2,127,122,-128,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,3,0,0,0,2,0,109,-35,0,0,0,0,0,0,0,0,0,1,117,114,0,2,91,66,-84,-13,23,-8,6,8,84,-32,2,0,0,120,112,0,0,0,12,31,28,31,30,31,30,31,31,30,31,30,31,119,10,0,0,0,6,8,1,1,1,0,0,117,113,0,126,0,15,0,0,0,2,0,109,-35,0,0,109,-35,0,120,115,114,0,26,115,117,110,46,117,116,105,108,46,99,97,108,101,110,100,97,114,46,90,111,110,101,73,110,102,111,36,-47,-45,-50,0,29,113,-101,2,0,8,73,0,8,99,104,101,99,107,115,117,109,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,9,114,97,119,79,102,102,115,101,116,73,0,13,114,97,119,79,102,102,115,101,116,68,105,102,102,90,0,19,119,105,108,108,71,77,84,79,102,102,115,101,116,67,104,97,110,103,101,91,0,7,111,102,102,115,101,116,115,113,0,126,0,11,91,0,20,115,105,109,112,108,101,84,105,109,101,90,111,110,101,80,97,114,97,109,115,113,0,126,0,11,91,0,11,116,114,97,110,115,105,116,105,111,110,115,116,0,2,91,74,120,113,0,126,0,21,113,0,126,0,24,26,-30,15,-84,0,54,-18,-128,-2,127,122,-128,0,0,0,0,0,117,113,0,126,0,15,0,0,0,3,-2,127,122,-128,-2,-74,105,0,0,54,-18,-128,117,113,0,126,0,15,0,0,0,10,0,0,0,2,0,0,0,8,-1,-1,-1,-1,0,109,-35,0,0,0,0,0,0,0,0,10,0,0,0,1,-1,-1,-1,-1,0,109,-35,0,0,0,0,0,117,114,0,2,91,74,120,32,4,-75,18,-79,117,-109,2,0,0,120,112,0,0,0,-99,-1,-33,-38,-32,29,-64,0,0,-1,-24,59,-107,76,40,0,33,-1,-24,127,41,84,-64,0,0,-1,-24,-80,-67,-7,40,0,33,-1,-24,-12,82,1,-64,0,0,-1,-23,37,-26,-90,40,0,33,-1,-23,107,-69,119,0,0,0,-1,-23,-101,15,83,40,0,33,-1,-23,-83,18,38,64,0,0,-1,-13,48,-11,-111,40,0,33,-1,-12,-36,-76,92,0,0,0,-1,-3,-39,22,114,40,0,33,-1,-2,21,-24,34,0,0,0,-1,-2,78,63,31,40,0,33,-1,-2,-117,16,-49,0,0,0,-1,-2,-59,-88,-108,104,0,33,-1,-1,0,57,124,0,0,0,-1,-1,58,-47,65,104,0,33,-1,-1,117,98,41,0,0,0,-1,-1,-81,-7,-18,104,0,33,-1,-1,-22,-118,-42,0,0,0,0,0,37,34,-101,104,0,33,0,0,95,-77,-125,0,0,0,0,0,-102,75,72,104,0,33,0,0,-41,28,-8,64,0,0,0,1,17,-76,-67,-88,0,33,0,1,76,69,-91,64,0,0,0,1,-122,-35,106,-88,0,33,0,1,-63,110,82,64,0,0,0,1,-41,-7,-109,-88,0,33,0,2,54,-106,-1,64,0,0,0,2,92,-25,-70,104,0,33,0,2,-85,-65,-84,64,0,0,0,2,-26,87,113,-88,0,33,0,3,35,41,33,-128,0,0,0,3,91,-128,30,-88,0,33,0,3,-104,81,-50,-128,0,0,0,3,-46,-23,-109,-24,0,33,0,4,13,122,123,-128,0,0,0,4,72,18,64,-24,0,33,0,4,-126,-93,40,-128,0,0,0,4,-67,58,-19,-24,0,33,0,4,-9,-53,-43,-128,0,0,0,5,50,99,-102,-24,0,33,0,5,108,-12,-126,-128,0,0,0,5,-89,-116,71,-24,0,33,0,5,-28,93,-9,-64,0,0,0,6,28,-76,-12,-24,0,33,0,6,89,-122,-92,-64,0,0,0,6,-108,30,106,40,0,33,0,6,-50,-81,81,-64,0,0,0,7,9,71,23,40,0,33,0,7,67,-41,-2,-64,0,0,0,7,126,111,-60,40,0,33,0,7,-71,0,-85,-64,0,0,0,7,-20,-42,24,104,0,33,0,8,46,41,88,-64,0,0,0,8,97,-2,-59,104,0,33,0,8,-91,-110,-50,0,0,0,0,8,-41,39,114,104,0,33,0,9,26,-69,123,0,0,0,0,9,76,80,31,104,0,33,0,9,-113,-28,40,0,0,0,0,9,-61,-71,-108,-88,0,33,0,10,5,12,-43,0,0,0,0,10,56,-30,65,-88,0,33,0,10,122,53,-126,0,0,0,0,10,-82,10,-18,-88,0,33,0,10,-15,-98,-9,64,0,0,0,11,35,51,-101,-88,0,33,0,11,102,-57,-92,64,0,0,0,11,-104,92,72,-88,0,33,0,11,-37,-16,81,64,0,0,0,12,15,-59,-67,-24,0,33,0,12,81,24,-2,64,0,0,0,12,-124,-18,106,-24,0,33,0,12,-58,65,-85,64,0,0,0,12,-6,23,23,-24,0,33,0,13,59,106,88,64,0,0,0,13,111,63,-60,-24,0,33,0,13,-78,-45,-51,-128,0,0,0,13,-28,104,113,-24,0,33,0,14,39,-4,122,-128,0,0,0,14,89,-111,30,-24,0,33,0,14,-99,37,39,-128,0,0,0,14,-48,-6,-108,40,0,33,0,15,18,77,-44,-128,0,0,0,15,70,35,65,40,0,33,0,15,-121,118,-127,-128,0,0,0,15,-69,75,-18,40,0,33,0,15,-2,-33,-10,-64,0,0,0,16,48,116,-101,40,0,33,0,16,116,8,-93,-64,0,0,0,16,-91,-99,72,40,0,33,0,16,-23,49,80,-64,0,0,0,17,20,3,-100,104,0,33,0,17,96,-102,-58,0,0,0,0,17,-119,44,73,104,0,33,0,17,-43,-61,115,0,0,0,0,17,-2,84,-10,104,0,33,0,18,74,-20,32,0,0,0,0,18,117,-66,107,-88,0,33,0,18,-62,85,-107,64,0,0,0,18,-22,-25,24,-88,0,33,0,19,55,126,66,64,0,0,0,19,96,15,-59,-88,0,33,0,19,-84,-90,-17,64,0,0,0,19,-43,56,114,-88,0,33,0,20,33,-49,-100,64,0,0,0,20,74,97,31,-88,0,33,0,20,-106,-8,73,64,0,0,0,20,-65,-119,-52,-88,0,33,0,21,12,32,-10,64,0,0,0,21,54,-13,65,-24,0,33,0,21,-125,-118,107,-128,0,0,0,21,-84,27,-18,-24,0,33,0,21,-8,-77,24,-128,0,0,0,22,33,68,-101,-24,0,33,0,22,109,-37,-59,-128,0,0,0,22,-106,109,72,-24,0,33,0,22,-29,4,114,-128,0,0,0,23,11,-107,-11,-24,0,33,0,23,88,45,31,-128,0,0,0,23,-126,-1,107,40,0,33,0,23,-49,-106,-108,-64,0,0,0,23,-8,40,24,40,0,33,0,24,68,-65,65,-64,0,0,0,24,109,80,-59,40,0,33,0,24,-71,-25,-18,-64,0,0,0,24,-30,121,114,40,0,33,0,25,47,16,-101,-64,0,0,0,25,87,-94,31,40,0,33,0,25,-92,57,72,-64,0,0,0,25,-52,-54,-52,40,0,33,0,26,25,97,-11,-64,0,0,0,26,68,52,65,104,0,33,0,26,-112,-53,107,0,0,0,0,26,-71,92,-18,104,0,33,0,27,5,-12,24,0,0,0,0,27,46,-123,-101,104,0,33,0,27,123,28,-59,0,0,0,0,27,-93,-82,72,104,0,33,0,27,-16,69,114,0,0,0,0,28,24,-42,-11,104,0,33,0,28,101,110,31,0,0,0,0,28,-112,64,106,-88,0,33,0,28,-36,-41,-108,64,0,0,0,29,5,105,23,-88,0,33,0,29,82,0,65,64,0,0,0,29,122,-111,-60,-88,0,33,0,29,-57,40,-18,64,0,0,0,29,-17,-70,113,-88,0,33,0,30,60,81,-101,64,0,0,0,30,100,-29,30,-88,0,33,0,30,-79,122,72,64,0,0,0,30,-38,11,-53,-88,0,33,0,31,38,-94,-11,64,0,0,120,-1,-1,-12,-30,-7,100,-84,0,115,113,0,126,0,9,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,96,-36,51,-6,-119,117,113,0,126,0,15,0,0,0,17,0,0,0,1,0,0,7,-30,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,9,0,0,0,9,0,0,0,3,0,0,0,2,0,0,0,0,0,0,0,11,0,0,0,11,0,0,0,34,0,0,0,42,0,0,0,-71,-2,127,122,-128,0,0,0,0,117,113,0,126,0,17,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,113,0,126,0,19,113,0,126,0,24,0,54,-18,-128,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,10,0,109,-35,0,0,0,0,0,-2,127,122,-128,0,0,0,2,0,0,0,2,0,0,0,1,0,0,0,3,0,0,0,2,0,109,-35,0,0,0,0,0,0,0,0,0,1,113,0,126,0,26,119,10,0,0,0,6,8,1,1,1,0,0,117,113,0,126,0,15,0,0,0,2,0,109,-35,0,0,109,-35,0,120,115,113,0,126,0,28,113,0,126,0,24,26,-30,15,-84,0,54,-18,-128,-2,127,122,-128,0,0,0,0,0,113,0,126,0,31,113,0,126,0,32,113,0,126,0,34,120,-1,-1,-12,-30,-7,100,-84,0,120,112,112"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTableVentas">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="0" rowCount="4"/>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0"/>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="jTextFieldServicios">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldIngresos">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Servicios:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingresos: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pago efectivo: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pago tarjeta: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldEfectivo">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldTarjeta">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Salir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Iva:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldIva">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldIngresoTotal">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldTotalEfectivo">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldTotalTarjeta">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonExportar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Exportar Excel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonExportarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
