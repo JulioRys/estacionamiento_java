@@ -173,7 +173,7 @@ public final class Main extends javax.swing.JFrame {
 
         jLabel4.setText("Fecha: ");
 
-        jTextFieldOcupados.setBackground(new java.awt.Color(255, 255, 204));
+        jTextFieldOcupados.setBackground(new java.awt.Color(255, 204, 204));
         jTextFieldOcupados.setHorizontalAlignment(javax.swing.JTextField.CENTER);
 
         jTextFieldDisponibles.setBackground(new java.awt.Color(204, 255, 204));
