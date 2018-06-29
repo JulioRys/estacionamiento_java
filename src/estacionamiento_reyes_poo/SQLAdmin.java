@@ -37,10 +37,10 @@ public class SQLAdmin {
     private static String[] columasInventario = {"Cajon","Marca", "Modelo","Color", "Placas", "Acomodador", "Hora Entrada"} ;
     private static String[] columasHistoricoAutos = {"Placas", "Marca", "Modelo", "Color"} ;
     private static String[] columasHistoricoVentas = {"Boleto", "Acomodador", "Entrada", "Salida", "Cobro","TipoPago","Cajon"} ;
-    private  DefaultTableModel modeloTablaEmpleados = new DefaultTableModel(infoBD, columasEmpleados);
-    private  DefaultTableModel modeloTablaInventario = new DefaultTableModel(infoBD, columasInventario);
-    private  DefaultTableModel modeloTablaHistoricoAutos = new DefaultTableModel(infoBD, columasHistoricoAutos);
-    private  DefaultTableModel modeloTablaHistoricoVentas = new DefaultTableModel(infoBD, columasHistoricoVentas);
+    private  static DefaultTableModel modeloTablaEmpleados = new DefaultTableModel(infoBD, columasEmpleados);
+    private  static DefaultTableModel modeloTablaInventario = new DefaultTableModel(infoBD, columasInventario);
+    private  static DefaultTableModel modeloTablaHistoricoAutos = new DefaultTableModel(infoBD, columasHistoricoAutos);
+    private  static DefaultTableModel modeloTablaHistoricoVentas = new DefaultTableModel(infoBD, columasHistoricoVentas);
     
     DefaultComboBoxModel comboboxmodel;
     
