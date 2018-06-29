@@ -284,6 +284,9 @@ public class Ingreso_Nuevo_ER extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSalirActionPerformed
+        sql.cerrarModelo(m.dftm);
+        m.setModels();
+        m.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButtonSalirActionPerformed
 
@@ -302,6 +305,7 @@ public class Ingreso_Nuevo_ER extends javax.swing.JFrame {
         this.dispose();
         Main m = new Main();
         sql.cerrarModelo(m.dftm);
+        m.setVisible(true);
         m.setModels();
         setLabels();
         }

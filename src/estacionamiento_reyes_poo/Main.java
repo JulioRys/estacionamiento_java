@@ -18,11 +18,12 @@ public final class Main extends javax.swing.JFrame {
     public Main(){
         initComponents();
         setModels();
-        setLabels();
+        //setLabels();
         
     }
     
     public void setModels(){
+        sql.cerrarModelo(dftm);
         dftm = sql.mostrarInventario();
         jTableInventario.setModel(dftm);
         jTableInventario.setAutoResizeMode(JTable.AUTO_RESIZE_NEXT_COLUMN);
@@ -34,7 +35,7 @@ public final class Main extends javax.swing.JFrame {
         colModel.getColumn(4).setPreferredWidth(5); 
         colModel.getColumn(5).setPreferredWidth(5);
         jTableInventario.setDefaultEditor(Object.class, null);
-        
+        setLabels();
     }
     
     public void setLabels(){
@@ -312,6 +313,7 @@ public final class Main extends javax.swing.JFrame {
     private void jButtonIngresoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonIngresoActionPerformed
         Ingreso_Nuevo_ER i = new Ingreso_Nuevo_ER();
         i.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButtonIngresoActionPerformed
 
     private void jButtonEmpleadosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEmpleadosActionPerformed
