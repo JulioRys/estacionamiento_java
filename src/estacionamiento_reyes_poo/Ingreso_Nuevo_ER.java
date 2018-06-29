@@ -170,11 +170,11 @@ public class Ingreso_Nuevo_ER extends javax.swing.JFrame {
 
         jTextFieldBoleto.setEnabled(false);
 
-        jTextFieldPlacas.setBackground(new java.awt.Color(204, 255, 204));
+        jTextFieldPlacas.setBackground(new java.awt.Color(255, 51, 51));
 
-        jTextFieldColor.setBackground(new java.awt.Color(255, 255, 204));
+        jTextFieldColor.setBackground(new java.awt.Color(255, 51, 51));
 
-        jTextFieldModelo.setBackground(new java.awt.Color(255, 255, 204));
+        jTextFieldModelo.setBackground(new java.awt.Color(255, 51, 51));
 
         jComboBoxEstado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Bueno", "Regular", "Malo" }));
         jComboBoxEstado.setSelectedIndex(-1);
