@@ -165,7 +165,7 @@ public final class Main extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jLabel1.setText("Inventario Actual EXPERIMENTAL");
+        jLabel1.setText("Inventario Actual");
 
         jLabel2.setText("Cajones en uso: ");
 
